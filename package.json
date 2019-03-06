@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+ 
+    
+  },
+  "keywords": [],
+  "author": "shubham tanuj",
+  "license": "ISC",
+  "dependencies": {
+    
+    "express": "^4.16.2",
+    
+    "socket.io": "^2.0.4"
+  }
+}
